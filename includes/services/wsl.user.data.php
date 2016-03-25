@@ -325,6 +325,8 @@ function wsl_store_hybridauth_user_contacts( $user_id, $provider, $adapter )
 					"email"       => $contact->email,
 					"profile_url" => $contact->profileURL,
 					"photo_url"   => $contact->photoURL,
+					"birthday"    => $contact->birthday, 
+		                        "birthmonth"  => $contact->birthmonth,
 				)
 			); 
 	}
